@@ -5,7 +5,7 @@ from sklearn import datasets
 from sklearn.metrics import adjusted_rand_score
 import matplotlib.pyplot as plt
 
-
+# this direction is still under progress 
 # both v2 and v3 work well on 2D data with clear geometric structure
 # tested on Iris (4D) and Digits (64D) — results were poor, ARI close to 0
 #
