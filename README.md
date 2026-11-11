@@ -106,7 +106,7 @@ $$\text{threshold} = \mu(\mathcal{D}) + w \cdot \sigma(\mathcal{D})$$
 The threshold reflects dataset-wide connectivity. Best for datasets with relatively uniform density (moons, rings, chains).
 
 ### 2. Local Density (`v3_local.py`)
-Distance history **resets for each new cluster** ($\mathcal{D}_k = []$). Each cluster learns its own local density threshold independently from scratch. Best suited when different clusters have significantly different densities or internal compactness.
+Distance history **resets for each new cluster** ($\mathcal{D}_k = []$). Each cluster now gets to learns its own local density threshold independently from scratch. Best suited when different clusters have significantly different densities or internal compactness.
 
 ### 3. Spectral Projection (`v4_spectral.py`)
 For high-dimensional feature spaces: first projects data onto a low-dimensional manifold using **Spectral Embedding (Laplacian Eigenmaps)**, The work is also under progress in this Algo.
@@ -179,11 +179,6 @@ Interactive notebooks:
 
 ---
 
-## Contact
-
-**Aarush Bharadwaj**  
-Undergraduate Researcher — Delhi Technological University (DTU)  
-Research under Dr. Dhirendra Kumar (Medical Image Segmentation Lab)
 
 
 ## Note
