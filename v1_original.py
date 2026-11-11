@@ -1,5 +1,5 @@
 # This is the first attempt at implementing the algorithm.
-# It is an attemot to understand the core structure of the ALgo and how updates shall happen and where 
+# It is an attempt to understand the core structure of the Algo and how updates shall happen and where 
 # The core logic (DFS + stack + mean/std threshold) is all here, just not clean.
 
 import numpy as np
